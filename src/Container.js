@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Weather() {
+export default function Container() {
   return (
     <div class="container">
       <div class="weather-app">
@@ -34,23 +34,17 @@ export default function Weather() {
         </form>
         <div class="row">
           <div class="col-6">
-            <h1></h1>
+            <h1>Barcelona</h1>
           </div>
           <div class="col-6">
-            <img
-              src=""
-              alt="API icon"
-              class="weather-icon float-left"
-              id="icon"
-              class="float-left"
-            />
+            <img src="" alt="API icon" class="weather-icon" id="weather icon" />
             <span class="temperature" id="temperature"></span>
             <span class="units">
-              <a href="#" id="celsius-link" class="active">
+              <a href="/" id="celsius-link" class="active">
                 °C
               </a>{" "}
               |
-              <a href="#" id="fahrenheit-link">
+              <a href="/" id="fahrenheit-link">
                 °F
               </a>
             </span>
@@ -91,6 +85,7 @@ export default function Weather() {
           <a
             href="https://github.com/gedavarol/project1-weatherapp"
             target="_blank"
+            rel="noreferrer"
             class="codeLink"
           >
             Open-source code
